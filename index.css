@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin:0 ;
+}
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%,rgba(0,0,0,0.6)50%),url(bg-img.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+#container1{
+    padding: 3% 20%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4.5  rem;
+    font-weight: bold;
+}
+.nav-item{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.logo-img {
+    color:whitesmoke;
+    width: 20%;
+    margin-top: 27px;
+    margin-left: 40px;
+} 
+
+.content{
+    width: 1200px;
+    height: auto;
+    position: relative;
+    color:whitesmoke;
+    margin: auto;
+}
+.heading{
+    font-family: 'Amaranth', sans-serif;
+    font-weight: normal;
+    margin-top: 12%;
+    font-size: 5.5rem;
+}
+span{
+    color: orangered;
+}
+.content button{
+    width: 180px;
+    height: 40px;
+    background-color: orangered;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;   
+}
+.content a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.content button:hover{
+    background-color: gray;
+}
+
+.col {
+    top: 150px;
+    left: 1240px;
+    position: absolute;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 60px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background: rgba(222, 210, 222, 0.171);
+    border-color: transparent;
+    cursor: pointer;
+}
+.col h3{
+    text-align: center;
+    font-family: 'Amaranth', sans-serif; 
+    font-weight: normal;
+    color: whitesmoke;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.feature-box i{
+    color: whitesmoke;
+    opacity: 90%;
+}
+.feature-box:hover{
+    background-color: orangered;
+}
+.col-2 {
+    top: 470px;
+    left: 60px;
+    position: absolute;
+    width: 10px;
+}
+.feature-box-2{
+    color: whitesmoke;
+    text-align: center;
+    margin-top:40px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    padding-bottom: 20px;
+    border-radius: 50%;
+}
+.feature-box-2:hover{
+    background-color: orangered;
+}
+
+
+@media (max-width:1000px) {
+
+    .heading{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        line-height: 1.5;
+        margin-top: 5%;
+        margin-left: 10px;
+    }
+    .content button{
+        width: 120px;
+        height: 40px;
+        background-color: orangered;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+        border: none;   
+    }
+    .content a{
+        color: white;
+        text-decoration: none;
+        font-size: 0.8rem;
+    }
+    .col {
+    top: 150px;
+    left: 350px;
+    position: absolute;
+    font-size: 10px;
+    }
+   .feature-box{
+    text-align: center;
+    padding: 5%;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 60px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background: rgba(222, 210, 222, 0.171);
+    border-color: transparent;
+    cursor: pointer;
+}
+.col h3{
+    text-align: center;
+    font-family: 'Amaranth', sans-serif; 
+    font-weight: normal;
+    color: whitesmoke;
+    font-size: 9px;
+    margin-top: 8px;
+}
+.feature-box i{
+    color: whitesmoke;
+    opacity: 90%;
+}
+.feature-box:hover{
+    background-color: orangered;
+}
+.col-2 {
+    top: 600px;
+    left: 200px;
+    position: absolute;
+}
+.feature-box-2{
+    color: whitesmoke;
+    text-align: center;
+    margin-top:40px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    padding-bottom: 2px;
+    border-radius: 50%;
+    padding-left: 5px;
+    display:inline;
+}
+.feature-box-2:hover{
+    background-color: orangered;
+}
+}
